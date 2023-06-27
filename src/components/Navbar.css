@@ -42,16 +42,54 @@
 .location {
     display: inline-flex;
     color: lightgrey;
+    justify-content: left;
+    padding-left: 2.7rem;
 }
 
 .location svg {
-    padding-top: 0.87rem;
     padding-right: 0.25rem;
 }
 
 .specialist {
     color: red;
     display: inline-flex;
+}
+
+.phone {
+    display: inline-flex;
+    color: lightgray;
+    justify-content: left;
+    padding-left: 3rem;
+}
+
+.phone svg {
+    padding-right: 0.25rem;
+}
+
+.email {
+    display: inline-flex;
+    color: lightgray;
+    justify-content: left;
+    padding-left: 3rem;
+}
+
+.email svg {
+    padding-right: 0.25rem;
+}
+
+.details {
+    display: inline-grid;
+}
+
+p {
+    font-size: 15px;
+    color: lightgrey;
+    margin: 0;
+    padding: 0.1rem;
+}
+
+h5 {
+    font-size: 16px;
 }
 
 @media screen and (max-width: 680px) {
@@ -89,13 +127,6 @@
     .location svg {
         margin: 0;
         padding: 0 0.3rem;
-    }
-
-    p {
-        font-size: small;
-        color: lightgrey;
-        margin: 0;
-        padding: 0;
     }
 
     .specialist {
