@@ -6,7 +6,7 @@ class Navmenu extends Component {
         return (
             <div className="menu">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">HOME</a></li>
                     <li><a href="">CARS</a></li>
                     <li><a href="https://autobellaparts.com">PARTS</a></li>
                     <li><a href="">MODERN</a></li>
