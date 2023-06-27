@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import logo from '../assets/Logo-2.png'
 import './/Navbar.css'
 
-import {GiHamburgerMenu} from 'react-icons/gi'
 import {ImLocation} from "react-icons/im";
 import {AiFillPhone} from "react-icons/ai";
 import {MdEmail} from "react-icons/md";
@@ -37,10 +36,6 @@ class Navbar extends Component {
                             <p>Stevenage, Hertfordshire, United Kingdom</p>
                         </div>
                     </div>
-                </div>
-
-                <div className="hamburgerMenu">
-                    <GiHamburgerMenu></GiHamburgerMenu>
                 </div>
             </div>
         );
