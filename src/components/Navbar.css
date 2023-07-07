@@ -96,6 +96,18 @@ h5 {
     .info {
         display: none;
     }
+
+    .logo img {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: center;
+    }
 }
 
 @media screen and (min-width: 1400px) {
